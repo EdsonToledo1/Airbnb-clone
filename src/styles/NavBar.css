@@ -1,0 +1,31 @@
+@import url("./vars.css");
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--nav-bar-height);
+}
+
+.NavBar__left-containe__logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.NavBar__left-container .logo--compact {
+  height: 2.8rem;
+  margin-right: 0.8rem;
+}
+
+.NavBar__right-container ul li {
+  display: inline-block;
+  margin-left: 16px;
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.NavBar__right-container ul li a {
+  text-decoration: none;
+  color: #111;
+}

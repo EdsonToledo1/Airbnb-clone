@@ -1,0 +1,192 @@
+@import url("./vars.css");
+
+:root {
+  --search-card-padding: 2rem;
+  --input-field-padding: 0.8rem;
+}
+
+.SearchCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: calc(((100vh - var(--nav-bar-height) - 1.6rem) - 75vh) / 2);
+  width: 42rem;
+  height: 75vh;
+  background-color: white;
+  padding: var(--search-card-padding);
+  box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem;
+}
+
+.SearchCard label {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.SearchCard__subtitle {
+  color: var(--secondary-text-color);
+  padding: var(--input-field-padding) 0;
+}
+
+.SearchCard__location-field {
+  width: 100%;
+  padding: var(--input-field-padding);
+  border: 1px solid var(--stroke-gray-color);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__location-field--focused {
+  border: 2px solid black;
+}
+
+.SearchCard__location-field label {
+  display: block;
+}
+
+.SearchCard__location-field input {
+  width: 100%;
+  border: none;
+  margin-top: 0.4rem;
+  font-size: var(--body-fs);
+  font-weight: var(--regular-fw);
+}
+
+.SearchCard__location-field input:focus {
+  outline: none;
+}
+
+.SearchCard__dates-field {
+  width: 100%;
+  margin-top: 1.2rem;
+  border: 1px solid var(--stroke-gray-color);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__dates-field__arrival {
+  padding: var(--input-field-padding);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__dates-field__departure {
+  padding: var(--input-field-padding);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__dates-field__arrival--focused {
+  border: 2px solid black;
+}
+
+.SearchCard__dates-field__departure--focused {
+  border: 2px solid black;
+}
+
+.SearchCard__dates-field div {
+  display: inline-block;
+  width: 50%;
+}
+
+.SearchCard__dates-field label {
+  display: block;
+}
+
+.SearchCard__dates-field input {
+  width: 100%;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: var(--footnote-fs);
+  color: var(--secondary-text-color);
+  margin-top: 0.4rem;
+}
+
+.SearchCard__dates-field input:focus {
+  outline: none;
+}
+
+.SearchCard__guests-field {
+  width: 100%;
+  margin-top: 1.2rem;
+  border: 1px solid var(--stroke-gray-color);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__guests-field__adults {
+  padding: var(--input-field-padding);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__guests-field__children {
+  padding: var(--input-field-padding);
+  border-radius: 0.8rem;
+}
+
+.SearchCard__guests-field__adults--focused {
+  border: 2px solid black;
+}
+
+.SearchCard__guests-field__children--focused {
+  border: 2px solid black;
+}
+
+.SearchCard__guests-field div {
+  display: inline-block;
+  width: 50%;
+}
+
+.SearchCard__guests-field label {
+  display: block;
+}
+
+.SearchCard__guests-field select {
+  width: 100%;
+  border: none;
+  margin-top: 0.4rem;
+}
+
+.SearchCard__guests-field select:focus {
+  outline: none;
+}
+
+.services-label {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.SearchCard__services-field {
+  width: 100%;
+  margin-top: 1.2rem;
+  padding-left: var(--input-field-padding);
+}
+
+.SearchCard__services-field__tags {
+  margin-top: var(--input-field-padding);
+}
+
+.SearchCard__services-field__tags li {
+  display: inline-block;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  font-size: var(--footnote-fs);
+  border: 1px solid var(--stroke-gray-color);
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+}
+
+.SearchCard__services-field__tags li:hover {
+  border: 1px solid black;
+}
+
+.SearchCard__search-button {
+  margin-top: 1.2rem;
+  width: 100%;
+  cursor: pointer;
+  height: 4.4rem;
+  border-radius: 0.8rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: var(--body-fs);
+  font-weight: var(--medium-fw);
+}

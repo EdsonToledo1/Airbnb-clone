@@ -1,0 +1,21 @@
+@import url("./vars.css");
+
+.ServiceInfoItem {
+  width: 100%;
+  margin-top: 3.2rem;
+}
+
+.ServiceInfoItem__icon {
+  width: 3.2rem;
+}
+
+.ServiceInfoItem__title {
+  font-size: var(--title-2-fs);
+  font-weight: var(--medium-fw);
+  margin-top: 0.8rem;
+}
+
+.ServiceInfoItem__description {
+  margin-top: 0.8rem;
+  margin-bottom: 3.2rem;
+}

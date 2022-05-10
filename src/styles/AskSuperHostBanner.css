@@ -1,0 +1,39 @@
+@import url("./vars.css");
+
+.AskSuperHostBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64rem;
+  background-image: url("../assets//ask-superhost.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1.2rem;
+  margin: 0 var(--horizontal-margin);
+}
+
+.AskSuperHostBanner__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AskSuperHostBanner__content__title {
+  text-align: center;
+  font-size: 6.4rem;
+  font-weight: var(--semibold-fw);
+  color: white;
+}
+
+.AskSuperHostBanner__content__button {
+  font-size: var(--body-fs);
+  font-weight: var(--medium-fw);
+  height: 4.4rem;
+  padding: 0 1.6rem;
+  background-color: white;
+  border-radius: 0.8rem;
+  border: none;
+  margin-top: 6.4rem;
+  cursor: pointer;
+}

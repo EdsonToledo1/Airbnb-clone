@@ -1,0 +1,56 @@
+@import url("./vars.css");
+
+.ReviewCard {
+  cursor: pointer;
+}
+
+.ReviewCard__img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.ReviewCard__evaluation {
+  margin-top: 1.6rem;
+}
+
+.ReviewCard__evaluation__star {
+  font-size: var(--body-fs);
+  color: var(--primary-color);
+  margin-right: 0.4rem;
+}
+
+.ReviewCard__comment {
+  color: var(--secondary-text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  margin-top: 0.8rem;
+}
+
+.ReviewCard__user-info {
+  display: flex;
+  margin-top: 1.6rem;
+}
+
+.ReviewCard__user-info__img {
+  border-radius: 100%;
+  width: 4.4rem;
+  height: 4.4rem;
+  object-fit: cover;
+  margin-right: 1.6rem;
+}
+
+.ReviewCard__user-info__name {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.ReviewCard__user-info__location {
+  font-size: var(--footnote-fs);
+  font-weight: var(--medium-fw);
+  color: var(--secondary-text-color);
+}

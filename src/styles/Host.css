@@ -1,0 +1,24 @@
+@import url("./vars.css");
+
+.HostNavBar {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.Host__NavBar--hidden {
+  display: none;
+}
+
+.Host__host-earning-section {
+  margin-top: 12rem;
+}
+
+.Host__host-earning-section__title {
+  width: 80%;
+  text-align: center;
+  margin: 6.4rem auto;
+  font-size: 6.4rem;
+  font-weight: var(--semibold-fw);
+  padding-right: var(--horizontal-margin);
+}

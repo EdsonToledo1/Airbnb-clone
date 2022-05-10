@@ -1,0 +1,39 @@
+@import url("./vars.css");
+
+.HomesList {
+  margin: 2rem;
+}
+
+.HomesList__results-caption {
+  font-size: var(--footnote-fs);
+  margin-bottom: 2.4rem;
+}
+
+.HomesList__filters {
+  margin-bottom: 2.4rem;
+}
+
+.HomesList__filters li {
+  font-size: var(--footnote-fs);
+  display: inline-block;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  border: 1px solid var(--stroke-gray-color);
+  padding: 0.8rem;
+  border-radius: 1.6rem;
+}
+
+.HomesList__filters li:hover {
+  border: 1px solid black;
+}
+
+.HomesList__place-caption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.HomesList__place-caption__text {
+  font-size: var(--footnote-fs);
+  margin-left: 1.6rem;
+}

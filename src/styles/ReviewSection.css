@@ -1,0 +1,22 @@
+@import url("./vars.css");
+
+.ReviewSection {
+  margin-top: 4.44rem;
+}
+
+.ReviewSection__title {
+  font-size: var(--title-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.ReviewSection__description {
+  color: var(--secondary-text-color);
+  margin-top: 0.8rem;
+}
+
+.ReviewSection__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.6rem;
+  margin-top: 2.4rem;
+}

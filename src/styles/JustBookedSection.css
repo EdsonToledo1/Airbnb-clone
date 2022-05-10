@@ -1,0 +1,28 @@
+@import url("./vars.css");
+
+.JustBookedSection {
+  margin-top: 4.4rem;
+}
+
+.JustBookedSection__title {
+  font-size: var(--title-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.JustBookedSection__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.JustBookedSection__more-button {
+  height: 4.4rem;
+  font-size: var(--body-fs);
+  font-weight: var(--medium-fw);
+  background-color: white;
+  padding: 0 1.6rem;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  margin-top: 3.2rem;
+}

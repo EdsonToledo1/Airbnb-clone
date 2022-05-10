@@ -1,0 +1,41 @@
+@import url("./vars.css");
+
+.LoginHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.8rem;
+  padding: 1.6rem 0;
+  padding: 0 var(--horizontal-margin);
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.LoginHeader__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.LoginHeader__right div {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+  padding: 0 0.8rem;
+}
+
+.LoginHeader__right .settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.6rem;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 5.6rem;
+}
+
+.LoginHeader__right .icon {
+  font-size: 2.4rem;
+}
+
+.LoginHeader__right .settings * {
+  font-size: 2.4rem;
+  margin: 0 0.8rem;
+}

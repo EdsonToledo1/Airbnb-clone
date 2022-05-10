@@ -1,0 +1,17 @@
+:root {
+  --body-fs: 1.7rem;
+  --footnote-fs: 1.3rem;
+  --title-fs: 2.8rem;
+  --title-2-fs: 2.2rem;
+  --large-title-fs: 3.4rem;
+  --light-fw: 300;
+  --regular-fw: 400;
+  --medium-fw: 500;
+  --semibold-fw: 600;
+  --bold-fw: 700;
+  --primary-color: #ff385c;
+  --secondary-text-color: #717171;
+  --stroke-gray-color: #c1c1c1;
+  --horizontal-margin: 7.5rem;
+  --nav-bar-height: 7rem;
+}

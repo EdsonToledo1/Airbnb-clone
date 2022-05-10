@@ -1,0 +1,52 @@
+@import url("./vars.css");
+
+.Footer {
+  width: 100%;
+  height: 8rem;
+  margin-top: 4.4rem;
+}
+
+.Footer__divider {
+  width: 100%;
+  height: 0.5px;
+  background-color: #d1d1d1;
+  margin-bottom: 2.4rem;
+}
+
+.Footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer__content__left {
+  display: flex;
+  align-items: center;
+}
+
+.Footer__content__left__privacy-advice {
+  font-size: var(--footnote-fs);
+  font-weight: var(--regular-fw);
+  color: black;
+  margin-right: 1.6rem;
+}
+
+.Footer__content__left ul li {
+  display: inline-block;
+}
+
+.Footer__content__left ul li a {
+  text-decoration: none;
+  font-size: var(--footnote-fs);
+  font-weight: var(--regular-fw);
+  color: black;
+  padding: 0 0.8rem;
+}
+
+.Footer__content__left ul li a:hover {
+  text-decoration: underline;
+}
+
+.Footer__content__right svg {
+  margin: 0 0.8rem;
+}

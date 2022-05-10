@@ -1,0 +1,21 @@
+@import url("./vars.css");
+
+.HostReviewCard {
+  margin: 0 1.2rem;
+}
+
+.HostReviewCard__img {
+  border-radius: 0.8rem;
+  width: 375px;
+  height: 425px;
+  position: relative;
+  scroll-snap-align: center;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.HostReviewCard__description {
+  font-size: var(--title-2-fs);
+  font-weight: var(--regular-fw);
+  margin-top: 3.6rem;
+  color: #222;
+}

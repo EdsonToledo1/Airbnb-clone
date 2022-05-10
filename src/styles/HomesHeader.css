@@ -1,0 +1,79 @@
+@import url("./vars.css");
+
+.HomesHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 8.8rem;
+  padding: 1.6rem 0;
+  padding: 0 var(--horizontal-margin);
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.HomesHeader__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.6rem;
+  border-radius: 5.6rem;
+  border: 1.5px solid #e1e1e1;
+  padding: 0 1.6rem;
+  width: 40rem;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.HomesHeader__center div {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+  padding: 0 0.8rem;
+}
+
+.HomesHeader__center .divider {
+  padding: 0;
+  width: 1px;
+  height: 80%;
+  background-color: #e1e1e1;
+}
+
+.HomesHeader__center .search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #ff385c;
+  border-radius: 100%;
+  color: white;
+  margin-left: 0.8rem;
+}
+
+.HomesHeader__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.HomesHeader__right div {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+  padding: 0 0.8rem;
+}
+
+.HomesHeader__right .settings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.6rem;
+  border: 1.5px solid #e1e1e1;
+  border-radius: 5.6rem;
+}
+
+.HomesHeader__right .icon {
+  font-size: 2.4rem;
+}
+
+.HomesHeader__right .settings * {
+  font-size: 2.4rem;
+  margin: 0 0.8rem;
+}

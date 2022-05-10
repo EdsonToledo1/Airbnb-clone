@@ -1,0 +1,30 @@
+@import url("./vars.css");
+
+.HostReviewSection {
+  margin-left: var(--horizontal-margin);
+}
+
+.HostReviewSection__title {
+  width: 60%;
+  text-align: center;
+  margin: 6.4rem auto;
+  font-size: 6.4rem;
+  font-weight: var(--semibold-fw);
+  padding-right: var(--horizontal-margin);
+}
+
+.HostReviewSection__slider {
+  display: flex;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: auto;
+  margin: 0;
+}
+
+.HostReviewSection__slider::-webkit-scrollbar {
+  display: none;
+}

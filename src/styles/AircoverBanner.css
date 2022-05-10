@@ -1,0 +1,41 @@
+@import url("./vars.css");
+
+.AircoverBanner {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 1.2rem;
+  margin: var(--horizontal-margin);
+  margin-top: 12rem;
+}
+
+.AircoverBanner__content {
+  margin: 6.4rem;
+}
+
+.AircoverBanner__content__description {
+  font-size: var(--title-fs);
+  font-weight: var(--regular-fw);
+  margin-top: 3.2rem;
+}
+
+.AircoverBanner__content__discover-aircover-button {
+  font-size: var(--body-fs);
+  font-weight: var(--medium-fw);
+  margin-top: 3.2rem;
+  height: 4.4rem;
+  padding: 0 0.8rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+.AircoverBanner__img {
+  width: 100%;
+  height: 64rem;
+  background-image: url("../assets/aircover.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

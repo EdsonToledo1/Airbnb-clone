@@ -1,0 +1,17 @@
+@import url("./vars.css");
+
+.HeroSection {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.HeroSection__img {
+  width: 75%;
+  height: calc(100vh - var(--nav-bar-height) - 1.6rem);
+  background-image: url("../assets/home-cover.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.2rem;
+}

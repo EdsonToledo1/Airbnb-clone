@@ -1,0 +1,17 @@
+@import url("./vars.css");
+
+.ServiceInfoSection {
+  margin-top: 4.4rem;
+}
+
+.ServiceInfoSection__divider {
+  width: 100%;
+  height: 0.5px;
+  background-color: #d1d1d1;
+}
+
+.ServiceInfoSection__items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.6rem;
+}

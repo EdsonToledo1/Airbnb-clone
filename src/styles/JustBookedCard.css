@@ -1,0 +1,44 @@
+@import url("./vars.css");
+
+.JustBookedCard__img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 1.2rem;
+}
+
+.JustBookedCard__accommodation {
+  width: 100%;
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.JustBookedCard__accommodation__title {
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+  color: var(--secondary-text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.JustBookedCard__accommodation__review {
+  width: 50%;
+  text-align: end;
+  font-size: var(--footnote-fs);
+  font-weight: var(--semibold-fw);
+}
+
+.JustBookedCard__accommodation__review .star-icon {
+  color: var(--primary-color);
+}
+
+.JustBookedCard__description {
+  margin-top: 0.8rem;
+}
+
+.JustBookedCard__price {
+  margin-top: 0.8rem;
+}

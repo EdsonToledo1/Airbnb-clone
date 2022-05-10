@@ -1,0 +1,26 @@
+@import url("./vars.css");
+
+.Homes__header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.Homes__content {
+  display: flex;
+  width: 100%;
+}
+
+.Homes__left {
+  margin-top: 8.8rem;
+  width: 60%;
+}
+
+.Homes__right {
+  width: 40%;
+  height: calc(100vh - 8.8rem);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
