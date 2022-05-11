@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Airbnb-clone/static/css/main.a690fc4a.css",
+    "main.js": "/Airbnb-clone/static/js/main.548dc4c4.js",
+    "static/media/home-cover.webp": "/Airbnb-clone/static/media/home-cover.1302c7e0c7a7327d02bb.webp",
+    "static/media/ask-superhost.webp": "/Airbnb-clone/static/media/ask-superhost.5f511a532b8ffec17290.webp",
+    "static/media/become-host.webp": "/Airbnb-clone/static/media/become-host.534561a84cb1b8713edb.webp",
+    "static/media/host-3.webp": "/Airbnb-clone/static/media/host-3.db935c07f6a763b48f50.webp",
+    "static/media/aircover.webp": "/Airbnb-clone/static/media/aircover.9ef86f1c5162f4e20c0e.webp",
+    "static/media/host-2.webp": "/Airbnb-clone/static/media/host-2.c0d8fa09ed3cd2ae00d5.webp",
+    "static/media/profile-pic.jpeg": "/Airbnb-clone/static/media/profile-pic.956bff171b8a901862ec.jpeg",
+    "static/media/host-4.webp": "/Airbnb-clone/static/media/host-4.5f070f08fbc818d17b93.webp",
+    "static/media/host-5.webp": "/Airbnb-clone/static/media/host-5.02a7c310aa2abf3dcd51.webp",
+    "static/media/host-6.webp": "/Airbnb-clone/static/media/host-6.13e7a6020e4bd33f0b2a.webp",
+    "static/media/host-1.webp": "/Airbnb-clone/static/media/host-1.35a7a526549fa6bafde5.webp",
+    "index.html": "/Airbnb-clone/index.html",
+    "main.a690fc4a.css.map": "/Airbnb-clone/static/css/main.a690fc4a.css.map",
+    "main.548dc4c4.js.map": "/Airbnb-clone/static/js/main.548dc4c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a690fc4a.css",
+    "static/js/main.548dc4c4.js"
+  ]
+}
